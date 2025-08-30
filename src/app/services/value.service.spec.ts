@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { ValueService } from './value.service';
 
-xdescribe('ValueService', () => {
+describe('ValueService', () => {
   let service: ValueService;
 
   beforeEach(() => {

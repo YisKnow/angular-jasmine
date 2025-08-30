@@ -1,6 +1,6 @@
 import { Calculator } from './calculator';
 
-xdescribe('Test for Calculator', () => {
+describe('Test for Calculator', () => {
 
   describe('Tests for multiply', () => {
     it('should return a nine', () => {

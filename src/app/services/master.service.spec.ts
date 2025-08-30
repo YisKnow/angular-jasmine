@@ -5,7 +5,7 @@ import { MasterService } from './master.service';
 import { ValueService } from './value.service';
 import { FakeValueService } from './value-fake.service';
 
-xdescribe('MasterService', () => {
+describe('MasterService', () => {
   let masterService: MasterService;
   let valueServiceSpy: jasmine.SpyObj<ValueService>;
 
