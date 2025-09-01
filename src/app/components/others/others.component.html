@@ -3,5 +3,10 @@
   <h5 highlight>Hay un valor</h5>
   <h5 highlight="yellow">yellow</h5>
 
-  <input [(ngModel)]="color" [highlight]="color">
+  <input type="text" [(ngModel)]="color" [highlight]="color">
+
+  <h3>Pipe</h3>
+  <p>{{ 'my texto' | reverse }}</p>
+  <input type="text" [(ngModel)]="text">
+  <p>{{ text | reverse }}</p>
 </section>

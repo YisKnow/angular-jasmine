@@ -16,6 +16,7 @@ import { PeopleComponent } from './components/people/people.component';
 import { ProductComponent } from './components/product/product.component';
 import { OthersComponent } from './components/others/others.component';
 import { HighlightDirective } from './directives/highlight.directive';
+import { ReversePipe } from './pipes/reverse.pipe';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HighlightDirective } from './directives/highlight.directive';
     PeopleComponent,
     ProductComponent,
     OthersComponent,
-    HighlightDirective
+    HighlightDirective,
+    ReversePipe
   ],
   imports: [
     BrowserModule,
